@@ -13,7 +13,7 @@
 | Franklin Esteban Orjuela Piñeros | 202560685 | Kubernetes + Video de Youtube |
 | Santiago Olave Mena | 20XXXXXX | Documentación |
 
-**Grupo asignado:** Grupo X  
+**Grupo asignado:** Grupo 7
 **Distribución gráfica:** [Zorin OS 17] 
 **Distribución consola:** [Ubuntu 24.04 Server]  
 **Imagen Docker base:** [debian:13]
@@ -29,9 +29,36 @@
 - Captura instalación VM gráfica
 ![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
 
-- Captura particionamiento (lsblk)
-- Captura configuración de red
+- Captura instalación VM consola
+![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
+
+- Captura particionamiento (lsblk) VM gráfica
+![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
+
+- Captura particionamiento (lsblk) VM gráfica
+![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
+
+- Captura informacion VM gráfica
+![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
+
+- Captura informacion VM consola
+![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
+
+- Captura configuración de red VM's
+- ip a (VM grafica)
+![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
+
+- ping id_VMC
+![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
+
+- ip a (VM grafica)
+![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
+
+- ping id_VMG
+![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
+
 - Captura prueba SSH funcional
+![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
 
 ### Comandos principales
 ```bash
