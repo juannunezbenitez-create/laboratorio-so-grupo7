@@ -30,35 +30,37 @@
 ![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
 
 - Captura instalación VM consola
-![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
+![Captura instalación VM consola](imagenes_grupo7/2.webp)
 
 - Captura particionamiento (lsblk) VM gráfica
-![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
+![Captura particionamiento (lsblk) VM gráfica](imagenes_grupo7/9.webp)
 
-- Captura particionamiento (lsblk) VM gráfica
-![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
+- Captura particionamiento (lsblk) VM consola
+![Captura particionamiento (lsblk) VM consola](imagenes_grupo7/8.webp)
+Nota: Esta maquina no nos dejaba crear las particiones manuales, al terminar de instalarse solo habria
+la terminal para ingresar el usuario y contraseña
 
 - Captura informacion VM gráfica
-![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
+![Captura instalación VM gráfica](imagenes_grupo7/10.webp)
 
 - Captura informacion VM consola
-![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
+![Captura instalación VM gráfica](imagenes_grupo7/11.webp)
 
 - Captura configuración de red VM's
 - ip a (VM grafica)
-![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
+![Captura instalación VM gráfica](imagenes_grupo7/3.webp)
 
 - ping id_VMC
-![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
+![Captura instalación VM gráfica](imagenes_grupo7/5.webp)
 
-- ip a (VM grafica)
-![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
+- ip a (VM consola)
+![Captura instalación VM gráfica](imagenes_grupo7/4.webp)
 
 - ping id_VMG
-![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
+![Captura instalación VM gráfica](imagenes_grupo7/7.webp)
 
 - Captura prueba SSH funcional
-![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
+![Captura instalación VM gráfica](imagenes_grupo7/6.webp)
 
 ### Comandos principales
 ```bash
