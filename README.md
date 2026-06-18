@@ -91,8 +91,18 @@ docker/
 
 ### Evidencias
 - Captura `docker compose up -d`
+![Captura docker compose up -d](imagenes_grupo7/12.1.jpg)
+![Captura docker compose up -d](imagenes_grupo7/12.2.webp)
+
+- Captura `docker ps` y `docker images`
+![Captura docker ps y docker images](imagenes_grupo7/16.png)
+
 - Captura navegador accediendo al frontend
+![Captura navegador accediendo al frontend](imagenes_grupo7/13.webp)
+
 - Captura `curl http://localhost:5000`
+![Captura curl http://localhost:5000](imagenes_grupo7/14.webp)
+![Captura http://localhost:5000](imagenes_grupo7/15.webp)
 
 ### Comandos principales
 ```bash
