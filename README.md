@@ -141,7 +141,7 @@ Nota: Con 3 replicas debido a que se hizo el escalado a 3 antes de subir el arch
 ![Captura acceso desde navegador](imagenes_grupo7/20.webp)
 
 - Captura escalado a 3 réplicas
-![Captura escalado a 3 réplicas](imagenes_grupo7/19.webp)
+![Captura escalado a 3 réplicas](imagenes_grupo7/18.3.webp)
 ![Captura escalado a 3 réplicas](imagenes_grupo7/19.webp)
 
 ### Comandos principales
