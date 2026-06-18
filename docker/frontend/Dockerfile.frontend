@@ -1,0 +1,15 @@
+FROM debian:13
+
+# Actualizar repositorios e instalar Nginx
+RUN apt-get update && \
+    apt-get install -y nginx && \
+    rm -rf /var/lib/apt/lists/*
+
+# Copiar archivo HTML personalizado
+COPY index.html /var/www/html/index.html
+
+# Exponer puerto 80
+EXPOSE 80
+
+# Comando para mantener Nginx en primer plano
+CMD ["nginx", "-g", "daemon off;"]
