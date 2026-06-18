@@ -27,6 +27,8 @@
 
 ### Evidencias
 - Captura instalación VM gráfica
+![Captura instalación VM gráfica](imagenes_grupo7/1.webp)
+
 - Captura particionamiento (lsblk)
 - Captura configuración de red
 - Captura prueba SSH funcional
