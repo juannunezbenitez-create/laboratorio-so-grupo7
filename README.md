@@ -121,7 +121,11 @@ curl http://localhost:5000
 
 ### Manifiestos
 - `deployment.yaml` — Nginx con 2 réplicas
+- [deployment.yaml](laboratorio_k8s_grupo7/deployment.yaml) — Nginx con 3 réplicas.
+Nota: Con 3 replicas debido a que se hizo el escalado a 3 antes de subir el archivo al repositorio
+
 - `service.yaml` — NodePort en puerto 30080
+- [service.yaml](laboratorio_k8s_grupo7/service.yaml) — NodePort en puerto 30080
 
 ### Evidencias
 - Captura `kubectl get pods`
