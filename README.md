@@ -128,10 +128,21 @@ Nota: Con 3 replicas debido a que se hizo el escalado a 3 antes de subir el arch
 - [service.yaml](laboratorio_k8s/service.yaml) — NodePort en puerto 30080
 
 ### Evidencias
+- Captura `minikube start`
+![Captura minikube start](imagenes_grupo7/17.webp)
+
 - Captura `kubectl get pods`
+![Captura kubectl get pods](imagenes_grupo7/18.1.jpg)
+
 - Captura `kubectl get svc`
+![Captura kubectl get svc](imagenes_grupo7/18.2.jpg)
+
 - Captura acceso desde navegador
+![Captura acceso desde navegador](imagenes_grupo7/20.webp)
+
 - Captura escalado a 3 réplicas
+![Captura escalado a 3 réplicas](imagenes_grupo7/19.webp)
+![Captura escalado a 3 réplicas](imagenes_grupo7/19.webp)
 
 ### Comandos principales
 ```bash
