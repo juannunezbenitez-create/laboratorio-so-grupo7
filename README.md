@@ -37,7 +37,7 @@
 
 - Captura particionamiento (lsblk) VM consola
 ![Captura particionamiento (lsblk) VM consola](imagenes_grupo7/8.webp)
-Nota: Esta maquina no nos dejaba crear las particiones manuales, al terminar de instalarse solo habria
+Nota: Esta maquina no nos dejaba crear las particiones manuales, al terminar de instalarse solo abria
 la terminal para ingresar el usuario y contraseña
 
 - Captura informacion VM gráfica
