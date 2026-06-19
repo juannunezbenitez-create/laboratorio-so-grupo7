@@ -158,7 +158,7 @@ minikube service nginx --url
 
 ## Componente 4: Sitio Web de Documentación
 
-**URL del sitio:** [https://edgarurrea-collab.github.io/]  
+**URL del sitio:** [https://juannunezbenitez-create.github.io/laboratorio-so-grupo7/]
 **Video YouTube:** [https://youtu.be/...]
 
 ### Secciones del sitio
