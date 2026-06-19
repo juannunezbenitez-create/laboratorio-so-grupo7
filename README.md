@@ -178,9 +178,15 @@ minikube service nginx --url
 ## Conclusiones
 
 1. [Aprendizaje principal]
-2. [Dificultad encontrada y cómo se resolvió]
-3. [Recomendación para futuros proyectos]
+**Pasar todo a contenedores nos salvó la vida:** El aprendizaje principal fue ver cómo cambia la cosa al separar el Frontend y el Backend en contenedores de Docker en lugar de meter todo en un solo bloque. Al montarlos sobre Debian 13 nos dimos cuenta de que cada servicio trabaja por su lado sin interferir con el otro, lo que hace que todo sea mucho más ordenado y fácil de manejar.
 
+
+2. [Dificultad encontrada y cómo se resolvió]
+**Los errores de red y de paquetes nos hicieron sufrir, pero se solucionaron:** La mayor dificultad fue cuando la máquina virtual se bloqueó y no quería instalar Git por culpa de unos paquetes rotos, y también cuando los Pods de Nginx en Minikube no querían conectar. Al final lo arreglamos metiendo el paquete a la fuerza con comandos manuales y amarrando bien los servicios al puerto 30080 con NodePort para que el tráfico saliera sin problemas.
+
+
+3. [Recomendación para futuros proyectos]
+**Para la próxima, se necesita una mejor computadora:** Como recomendación para los que vayan a hacer este proyecto después, seria bueno tener una buena máquina con bastante memoria RAM. Correr VirtualBox, la máquina virtual, Docker y encima prender Minikube al mismo tiempo pone la computadora lentísima si no se le asignan buenos recursos desde el principio.
 ---
 
 *Proyecto desarrollado para la asignatura Sistemas Operativos 750001C — Semestre 1, 2026*
