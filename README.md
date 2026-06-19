@@ -171,7 +171,8 @@ minikube service nginx --url
 
 ## Diagrama de Arquitectura
 
-> Insertar imagen del diagrama (draw.io / Miro / Lucidchart)
+> Imagen del diagrama (draw.io)
+![Imagen del diagrama](imagenes_grupo7/SistemasOperativos.drawio.png)
 
 ---
 
