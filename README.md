@@ -172,7 +172,7 @@ minikube service nginx --url
 ## Diagrama de Arquitectura
 
 > Imagen del diagrama (draw.io)
-![Imagen del diagrama](imagenes_grupo7/SistemasOperativos.drawio.png)
+![Imagen del diagrama](imagenes_grupo7/sistemasoperativos.drawio.png)
 
 ---
 
