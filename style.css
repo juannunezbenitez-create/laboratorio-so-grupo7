@@ -1,0 +1,101 @@
+
+/* Contenedor en rejilla para las tres carpetas */
+.folder-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Estructura base de la carpeta interactiva */
+.folder-card {
+    position: relative;
+    background-color: #ffffff; /* Fondo Blanco */
+    border: 1px solid #e2e8f0; /* Borde Slate 200 */
+    border-radius: 0 12px 12px 12px; /* Esquina superior izquierda recta para la pestaña */
+    padding: 24px;
+    margin-top: 12px; /* Espacio superior reservado para la pestaña */
+    display: flex;
+    flex-direction: column;
+    text-decoration: none; /* Elimina líneas de enlace de texto */
+    color: inherit;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 12px -5px rgba(0, 0, 0, 0.08);
+}
+
+/* La pestaña superior del folder */
+.folder-tab {
+    position: absolute;
+    top: -12px;
+    left: -1px;
+    height: 12px;
+    width: 80px;
+    border-radius: 6px 8px 0 0;
+    transition: width 0.3s ease;
+}
+
+/* Icono descriptivo grande interno */
+.folder-icon {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+    transition: transform 0.3s ease;
+}
+
+/* --------------------------------------------------------------------------
+   COLORES E IDENTIDADES VISUALES
+   -------------------------------------------------------------------------- */
+
+/* Estilos específicos para la carpeta de GITHUB */
+.tab-github { background-color: #475569; } 
+.icon-github { color: #334155; } /* Slate 700 para mayor contraste */
+.folder-card-github:hover { border-color: #64748b; }
+
+/* Estilos específicos para la carpeta de DRAW.IO */
+.tab-drawio { background-color: #0284c7; } 
+.icon-drawio { color: #0284c7; } /* Sky 600 */
+.folder-card-drawio:hover { border-color: #0284c7; }
+
+/* Estilos específicos para la carpeta de YOUTUBE */
+.tab-youtube { background-color: #dc2626; } 
+.icon-youtube { color: #dc2626; } /* Red 600 */
+.folder-card-youtube:hover { border-color: #dc2626; }
+
+/* Enlace/Acción simulado al pie de la carpeta */
+.folder-action {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #64748b; /* Slate 500 */
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: auto; /* Fuerza al texto a mantenerse siempre abajo */
+    transition: all 0.2s ease;
+}
+
+/* --------------------------------------------------------------------------
+   EFECTOS HOVER (Interacciones con CSS)
+   -------------------------------------------------------------------------- */
+
+/* Elevación de la carpeta al pasar el mouse con sombra más suave */
+.folder-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 25px -5px rgba(0, 0, 0, 0.12);
+}
+
+/* La pestaña superior se ensancha simulando apertura */
+.folder-card:hover .folder-tab {
+    width: 115px;
+}
+
+/* El ícono de la plataforma rota levemente */
+.folder-card:hover .folder-icon {
+    transform: scale(1.08) rotate(-5deg);
+}
+
+/* Desplazamiento sutil de la flecha/icono de acción */
+.folder-card:hover .folder-action {
+    color: #0284c7;
+    padding-left: 4px;
+}
