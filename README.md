@@ -159,7 +159,8 @@ minikube service nginx --url
 ## Componente 4: Sitio Web de Documentación
 
 **URL del sitio:** [https://juannunezbenitez-create.github.io/laboratorio-so-grupo7/]
-**Video YouTube:** [https://youtu.be/...]
+
+**Video YouTube:** [https://juannunezbenitez-create.github.io/laboratorio-so-grupo7/]
 
 ### Secciones del sitio
 - Home: introducción y objetivos
