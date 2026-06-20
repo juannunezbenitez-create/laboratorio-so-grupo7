@@ -11,7 +11,7 @@
 | Juan David Nuñez Benitez | 202560692 | Virtualización + Documentacion |
 | Edgar Steven Urrea Espinosa | 202560922 | Docker + Sitio Web |
 | Franklin Esteban Orjuela Piñeros | 202560685 | Kubernetes + Video de Youtube |
-| Santiago Olave Mena | 20XXXXXX | Documentación |
+| Santiago Olave Mena | 202560785 | Documentación |
 
 **Grupo asignado:** Grupo 7
 **Distribución gráfica:** [Zorin OS 17] 
